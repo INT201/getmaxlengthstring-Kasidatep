@@ -3,7 +3,7 @@
 function getMaxLengthString(arrayOfString) {
   let maxLength = ['']
   let j = 0
-  if (arrayOfString ==null && arrayOfString ==undefined) {
+  if (arrayOfString ==null || arrayOfString ==undefined) {
     return undefined
   } else{
     for (let i = 0; i < arrayOfString.length; i++) {
